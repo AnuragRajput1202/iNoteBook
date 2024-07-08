@@ -1,0 +1,41 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "iNotebook",
+    "collectionId": "bab0f51e-e3f2-4ef0-9d65-72313084cd40",
+    "dateExported": "2024-06-06T05:45:22.766Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "5088c08a-5b91-4ddb-a9db-fb18f26d99e8",
+            "name": "Authentication",
+            "containerId": "",
+            "created": "2024-06-06T05:44:00.400Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "79aeb47b-ad74-4964-9439-f7a15a84628a",
+            "colId": "bab0f51e-e3f2-4ef0-9d65-72313084cd40",
+            "containerId": "5088c08a-5b91-4ddb-a9db-fb18f26d99e8",
+            "name": "create a user",
+            "url": "http://localhost:9010/api/auth/createuser",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-06-06T05:44:10.609Z",
+            "modified": "2024-06-06T05:44:59.960Z",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"modi\",\n  \"email\":\"marendramodi@gmail.com\",\n  \"password\":\"waahmodijiwaah\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "ElEIi7TgXdkctPseBEPlkHg7a8x0cALM0-p6GSiGCa2MLqb-1eRAy8D7IVFrIeo9EBKzdu0X0FKJzpTaBMOjRg"
+}
