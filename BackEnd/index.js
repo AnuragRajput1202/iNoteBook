@@ -4,7 +4,11 @@ const cors = require('cors')
 const app =express()
 const port = process.env.PORT
 
-app.use(cors())
+const corsOptions = {
+    origin: "https://inotebook-1-jrfp.onrender.com", // frontend URI (ReactJS)
+}
+
+app.use(cors(corsOptions))
 app.use(express.json())
 
 connectToDatabase()
