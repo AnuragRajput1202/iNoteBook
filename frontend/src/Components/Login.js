@@ -16,7 +16,7 @@ const Login = (props) => {
 
     const userLogin = async (email, password) => {
         //API Call
-        const url ="http://localhost:9010/api/auth/login"
+        const url ="https://inotebook-ec77.onrender.com/api/auth/login"
         const response = await fetch(url, {
             method: "POST",
             headers: {

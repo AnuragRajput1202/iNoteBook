@@ -16,7 +16,7 @@ const Signup = (props) => {
     }
     const userSignUp = async (name, email, password) => {
         //API Call
-        const url = "http://localhost:9010/api/auth/createuser"
+        const url = "https://inotebook-ec77.onrender.com/api/auth/createuser"
         const response = await fetch(url, {
             method: "POST",
             headers: {
