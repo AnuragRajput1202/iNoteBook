@@ -1,7 +1,6 @@
 {
   "name": "inotebook",
   "version": "1.0.0",
-  "homepage": "https://AnuragRajput1202.github.io/iNoteBook/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
